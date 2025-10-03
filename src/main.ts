@@ -47,7 +47,6 @@ const amplitude = 10;
 const speed = 0.05;
 
 const animation = new Konva.Animation((frame) => {
-  // frame.time is total elapsed time in ms
   lemon.rotation(amplitude * Math.sin(frame.time * speed));
 }, layer);
 

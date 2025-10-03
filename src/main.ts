@@ -60,7 +60,7 @@ const clickScale = 1.5;
 //On mousedown, the lemon oscillates, is draggable, and scales up
 lemon.on('mousedown', () => {
   lemon.draggable(true);
-  lemon.scale({x: 1.5, y: 1.5});
+  lemon.scale({x: clickScale, y: clickScale});
   animation.start();
 });
 
